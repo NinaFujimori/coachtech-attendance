@@ -55,7 +55,7 @@ php artisan storage:link
 
 ## ER図
 
-![ER図](src/storage/app/public/image/ER図.png)
+![ER図](ER図.png)
 
 ## テストアカウント
 name: 管理者
