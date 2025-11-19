@@ -55,7 +55,25 @@ php artisan storage:link
 
 ## ER図
 
-storage/image/ER図.png
+![alt](ER図.png)
+
+## テストアカウント
+name: 管理者
+email: admin@gmail.com  
+password: AdminPass  
+-------------------------
+name: 田中太郎
+email: staff01@gmail.com  
+password: tanakapass
+-------------------------
+name: 佐藤花子
+email: staff02@gmail.com 
+password: satopass 
+-------------------------
+name: 高知鉄久
+email: staff03@gmail.com  
+password: koutipass
+-------------------------
 
 ## URL
 - 開発環境：http://localhost/
