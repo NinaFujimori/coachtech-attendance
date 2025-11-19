@@ -55,7 +55,7 @@ php artisan storage:link
 
 ## ER図
 
-![alt](ER図.png)
+<img src="storage/image/ER図.svg" alt="ER図">
 
 ## テストアカウント
 name: 管理者
