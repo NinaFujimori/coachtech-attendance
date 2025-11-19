@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateBreaksTable extends Migration
+class CreateRestsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -16,8 +16,9 @@ class CreateBreaksTable extends Migration
         Schema::create('rests', function (Blueprint $table) {
             $table->id();
             $table->foreignId('attendance_id')->constrained()->cascadeOnDelete();
+            $table->integer('approval')->default(0);
             $table->time('start');
-            $table->time('finish');
+            $table->time('finish')->nullable();
             $table->timestamps();
         });
     }

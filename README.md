@@ -53,13 +53,9 @@ php artisan storage:link
 - Laravel8.83.27
 - MySQL8.0.26
 
-## テーブル設計
-
-『テーブルの図の相対パス』
-
 ## ER図
 
-『ER図の相対パス』
+storage/image/ER図.png
 
 ## URL
 - 開発環境：http://localhost/

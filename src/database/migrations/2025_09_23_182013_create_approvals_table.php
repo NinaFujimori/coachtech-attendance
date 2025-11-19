@@ -15,7 +15,11 @@ class CreateApprovalsTable extends Migration
     {
         Schema::create('approvals', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->foreignId('attendance_id')->constrained()->cascadeOnDelete();
+            $table->integer('approval')->default(1);
+            $table->time('start');
+            $table->time('finish');
+            $table->string('description', 255);
             $table->timestamps();
         });
     }
